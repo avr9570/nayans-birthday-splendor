@@ -7,7 +7,7 @@ import { BirthdayGame } from '@/components/BirthdayGame';
 import { PhotoGallery } from '@/components/PhotoGallery';
 import { LoveMeter } from '@/components/LoveMeter';
 import { DrawingCanvas } from '@/components/DrawingCanvas';
-import { BirthdayAudio } from '@/components/BirthdayAudio';
+
 
 const Index = () => {
   const [showSparkles, setShowSparkles] = useState(false);
@@ -31,7 +31,7 @@ const Index = () => {
       <StarryBackground />
       <FloatingBalloons />
       <SparkleEffect trigger={showSparkles} />
-      <BirthdayAudio />
+      
       
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-4 py-8 max-w-6xl">
