@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'cute': ['Comic Neue', 'Nunito', 'cursive', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -26,7 +29,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +55,19 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				birthday: {
+					pink: 'hsl(var(--birthday-pink))',
+					purple: 'hsl(var(--birthday-purple))',
+					yellow: 'hsl(var(--birthday-yellow))',
+					blue: 'hsl(var(--birthday-blue))',
+					green: 'hsl(var(--birthday-green))',
+				},
+				sparkle: {
+					1: 'hsl(var(--sparkle-1))',
+					2: 'hsl(var(--sparkle-2))',
+					3: 'hsl(var(--sparkle-3))',
+					4: 'hsl(var(--sparkle-4))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -88,7 +105,13 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'bounce-in': 'bounce-in 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+				'sparkle': 'sparkle 1.5s ease-in-out infinite',
+				'heart-beat': 'heart-beat 1.2s ease-in-out infinite',
+				'balloon-rise': 'balloon-rise 8s linear infinite',
+				'twinkle': 'twinkle 2s ease-in-out infinite',
 			}
 		}
 	},
