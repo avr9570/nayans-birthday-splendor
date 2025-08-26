@@ -47,8 +47,8 @@ export const BirthdayAudio = () => {
         onPause={() => setIsPlaying(false)}
       >
         {/* Happy Birthday melody */}
-        <source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mpeg" />
-        <source src="https://file-examples.com/storage/fe86a1ba8d258d2b0a071d7/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg" />
+        <source src="https://freesound.org/data/previews/316/316847_5123451-lq.mp3" type="audio/mpeg" />
+        <source src="https://freesound.org/data/previews/316/316847_5123451-lq.mp3" type="audio/mpeg" />
       </audio>
       
       <Button
