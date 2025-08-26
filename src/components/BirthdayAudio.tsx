@@ -46,8 +46,9 @@ export const BirthdayAudio = () => {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
-        {/* Using a free birthday song - you can replace with your preferred audio */}
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
+        {/* Happy Birthday melody */}
+        <source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mpeg" />
+        <source src="https://file-examples.com/storage/fe86a1ba8d258d2b0a071d7/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg" />
       </audio>
       
       <Button
